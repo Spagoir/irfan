@@ -1,0 +1,343 @@
+.container{
+    width: 100%;
+    height: 2000px;
+    display: flex;
+}
+.left{
+   position: fixed;
+    width: 250px;
+    height: 800px;
+    background-color:white;
+    float: left;
+    
+    
+}
+.center{
+
+    width: 800px;
+    height: 2000px;
+    padding-left: 0px;
+    padding-top: 25px;
+    float: left;
+    display: fixed;
+    margin-left: 250px;
+    
+    
+    
+}
+.right{
+    padding-top: 43px;
+    width: 280px;
+    height: 800px;
+    float: right;
+
+
+}
+.insta{
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 40px;
+
+}
+.menu{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.menu:hover{
+    background: rgba(0, 0, 0, .05);
+    border-radius: 10px;
+
+}
+.menu:active{
+    opacity: 0.7;
+}
+.hm{
+    
+    padding-left: 20px;
+    
+    padding-top: 10px;
+}
+.names{
+    position: absolute;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 50%;
+    left:85px;
+    transform: translate(-50%,-50%);
+}
+
+
+.nm{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.noti{
+    position: absolute;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 40%;
+    left:110px;
+    transform: translate(-50%,-50%);
+}
+.msgs{
+    position: absolute;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 40%;
+    left:95px;
+    transform: translate(-50%,-50%);
+}
+.rl{
+    position: absolute;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 40%;
+    left:80px;
+    transform: translate(-50%,-50%);
+}
+.exp{
+    position: absolute;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 40%;
+    left:87px;
+    transform: translate(-50%,-50%);
+}
+.srch{
+    position: absolute;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 40%;
+    left:85px;
+    transform: translate(-50%,-50%);
+}
+
+.nwpost{
+    position: absolute;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 40%;
+    left:95px;
+    transform: translate(-50%,-50%);
+}
+
+.img{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 16px;
+    border-radius: 50%;
+}
+.image{
+    position: absolute;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 40%;
+    left:85px;
+    transform: translate(-50%,-50%);
+}
+.thread{
+    position: absolute;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 40%;
+    left:85px;
+    transform: translate(-50%,-50%);
+}
+.more{
+    position: absolute;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 40%;
+    left:80px;
+    transform: translate(-50%,-50%);
+}
+.story{
+    position: relative;
+    width: 90px;
+    height: 100px;
+    margin-left:  3px;
+    float: left;
+
+
+
+
+}
+.str1{
+   border-radius: 50%;
+   margin-left: 10px;
+   display: cover;
+   position: absolute;
+}
+.user{
+    position: absolute;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 90%;
+    left:43px;
+    transform: translate(-50%,-50%);
+    font-size: small;
+}
+.next{
+    width: 700px;
+    height: 130px;
+
+    margin-top: 110px;
+    margin-left: 40px;
+}
+.follow{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.dp{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 16px;
+    border-radius: 50%;
+
+}
+.username{
+    position: absolute;
+    font-weight: 600;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 40%;
+    left:100px;
+    transform: translate(-50%,-50%);
+}
+.followbtn{
+    position: absolute;
+    font-weight: 500;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 40%;
+    left:85%;
+    transform: translate(-50%,-50%);
+    font-size: small;
+    color: #1877F2;
+}
+.sgst{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.seeall{
+    position: absolute;
+    font-weight: 500;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 40%;
+    left:85%;
+    transform: translate(-50%,-50%);
+    font-size: small;
+    color: black;
+}
+.follobtn{
+    position: absolute;
+    font-weight: 500;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 40%;
+    left:85%;
+    transform: translate(-50%,-50%);
+    font-size: small;
+    color: #1877F2;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+.follobtn:hover{
+    color:black;
+    transition: color 0.3s ease;
+    
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 5px;
+
+
+}
+.abt{
+    position: absolute;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: small;
+    color: gray;
+} 
+.end{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    font-size: small;
+    color: gray;
+
+}
+.posts{
+width: 100%;
+height: 400px;
+margin-bottom: 5px;
+position: relative;
+
+
+}
+.postimg{
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.dpimg{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.dpname{
+    position: absolute;
+    font-weight: 500;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    top: 20px;
+    left:220px;
+    transform: translate(-50%,-50%);
+    font-size: small;
+    color: black;
+    cursor: pointer;
+}
+.lkbt{
+    margin-left: 150px;
+
+}
+.lkbt:hover{
+    opacity: 0.7;
+}
+.lkbt:active{
+    color: red;
+}
+.cmd{
+    margin-left: 150px;
+
+}
+.save{
+    margin-left: 185px;
+    cursor: pointer;
+}
+.save :hover{
+opacity: 0.4;
+
+}
+.cmt{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.cmt :hover{
+    opacity: 0.4;
+}
+.share{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.share :hover{
+    opacity: 0.4;
+    transition:  0.15s;
+}
+
